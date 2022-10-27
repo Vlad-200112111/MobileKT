@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, GridActivity.class);
         startActivity(intent);
     }
+
+    public void open2(View view) {
+        Intent intent = new Intent(MainActivity.this, ListActivity.class);
+        startActivity(intent);
+    }
 }

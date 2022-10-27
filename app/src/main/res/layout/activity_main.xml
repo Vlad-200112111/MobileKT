@@ -45,6 +45,7 @@
             android:id="@+id/button2"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:onClick="open2"
             android:text="Отобразить в виде списка"
             tools:ignore="MissingConstraints" />
     </LinearLayout>
